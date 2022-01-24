@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFDFF933-FE60-4C38-A695-D0C36C5D1056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithIAsyncEnumerable", "src\WithIAsyncEnumerable\WithIAsyncEnumerable.csproj", "{9BC451E7-8523-4032-9C1E-C9716AEB64C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutIAsyncEnumerable", "src\WithoutIAsyncEnumerable\WithoutIAsyncEnumerable.csproj", "{0A8054E4-87A4-4B09-B7B6-3623665D0CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC451E7-8523-4032-9C1E-C9716AEB64C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC451E7-8523-4032-9C1E-C9716AEB64C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC451E7-8523-4032-9C1E-C9716AEB64C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC451E7-8523-4032-9C1E-C9716AEB64C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8054E4-87A4-4B09-B7B6-3623665D0CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8054E4-87A4-4B09-B7B6-3623665D0CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8054E4-87A4-4B09-B7B6-3623665D0CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8054E4-87A4-4B09-B7B6-3623665D0CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BC451E7-8523-4032-9C1E-C9716AEB64C0} = {AFDFF933-FE60-4C38-A695-D0C36C5D1056}
+		{0A8054E4-87A4-4B09-B7B6-3623665D0CCA} = {AFDFF933-FE60-4C38-A695-D0C36C5D1056}
+	EndGlobalSection
+EndGlobal
